@@ -12,7 +12,7 @@ check_even () {
 }
 
 
-number=2344
+read -p "number:" n
 
-check_even $number
-echo $mod
+check_even $n
+echo "$mod You can't see the number of mod here"
